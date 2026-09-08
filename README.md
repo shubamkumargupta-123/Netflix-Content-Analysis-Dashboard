@@ -29,20 +29,26 @@ Streaming platforms release thousands of titles across decades, making it hard t
 
 - **2019 saw the highest volume of new titles added (749)**, closely followed by 2018 (733), 2021 (687), and 2020 (657) — the catalog's most active growth period was 2017–2021.
 - **TV-14 content rates highest on average (7.26 IMDb score)**, narrowly ahead of TV-MA (7.07) — and notably outperforms family-oriented ratings like PG (6.21) and G (6.39), which score lower on average.
-- **Breaking Bad is the most-engaged single title by IMDb score** (9.5) among the top 5 most-voted titles, while **Inception leads in total rating volume** (19.96M votes), followed by Forrest Gump (17.55M) and Breaking Bad (16.41M).
+- **Breaking Bad is the most-engaged single title by IMDb score** (9.5) among the top 5 most-voted titles, while **Inception leads in total rating volume** (~20M votes), followed by Forrest Gump (~18M) and Breaking Bad (~16M).
+- The dashboard's total **Sum of IMDb Votes across the entire filtered catalog is 124M**, with an interactive year-range slider (1953–2022) and Movie/Show toggle for on-the-fly filtering.
 
 ## 📷 Dashboard Preview
 
-**Titles released per year**
+**Full dashboard overview**
+![Full Dashboard Overview](images/full-dashboard-overview.png)
+
+**Detailed breakdowns**
+
+Titles released per year
 ![Titles Per Year](images/titles-per-year.png)
 
-**Top 10 titles by rating votes**
+Top 10 titles by rating votes
 ![Top 10 Titles by Votes](images/top10-titles-by-votes.png)
 
-**Average IMDb score by age certification**
+Average IMDb score by age certification
 ![Average Score by Certification](images/avg-score-by-certification.png)
 
-**Movie vs. TV Show split**
+Movie vs. TV Show split
 ![Movie vs Show Split](images/movie-vs-show-split.png)
 
 ## 📁 Repository Structure
@@ -50,7 +56,8 @@ Streaming platforms release thousands of titles across decades, making it hard t
 ```
 ├── README.md
 ├── Netflix_project.pbix   # Power BI report file
-└── images/                # dashboard chart exports for this README
+└── images/                # dashboard screenshot + chart exports for this README
+    ├── full-dashboard-overview.png
     ├── titles-per-year.png
     ├── top10-titles-by-votes.png
     ├── avg-score-by-certification.png
