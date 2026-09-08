@@ -1,5 +1,3 @@
-# Netflix-Content-Analysis-Dashboard
-Uncovering content and rating trends across a 5,000+ title catalog using Power BI
 # Netflix Content Analysis Dashboard — Uncovering content and rating trends across a 5,000+ title catalog using Power BI
 
 ![Tool](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=black)
@@ -29,33 +27,34 @@ Streaming platforms release thousands of titles across decades, making it hard t
 
 ## 💡 Key Insights
 
-## Insight 1: Titles added per release year
-**2019 saw the highest volume of new titles (749)**, closely followed by 2018 (733), 2021 (687), and 2020 (657) — the catalog's most active growth period was 2017–2021.
-
-## Insight 2: Average IMDb score by age certification
-**TV-14 content rates highest on average (7.26)**, narrowly ahead of TV-MA (7.07). Interestingly, family-oriented ratings like PG (6.21) and G (6.39) score *lower* on average than the mature-audience categories — TV-MA and TV-14 titles outperform G/PG content in average IMDb score.
-
-## Insight 3: Top 5 titles by rating votes
-| Title | Type | Year | Rating Votes | IMDb Score |
-|---|---|---|---|---|
-| Inception | Movie | 2010 | 19.96M | 8.8 |
-| Forrest Gump | Movie | 1994 | 17.55M | 8.8 |
-| Breaking Bad | Show | 2008 | 16.41M | 9.5 |
-| Django Unchained | Movie | 2012 | 12.37M | 8.4 |
-| Saving Private Ryan | Movie | 1998 | 11.58M | 8.6 |
-
+- **2019 saw the highest volume of new titles added (749)**, closely followed by 2018 (733), 2021 (687), and 2020 (657) — the catalog's most active growth period was 2017–2021.
+- **TV-14 content rates highest on average (7.26 IMDb score)**, narrowly ahead of TV-MA (7.07) — and notably outperforms family-oriented ratings like PG (6.21) and G (6.39), which score lower on average.
+- **Breaking Bad is the most-engaged single title by IMDb score** (9.5) among the top 5 most-voted titles, while **Inception leads in total rating volume** (19.96M votes), followed by Forrest Gump (17.55M) and Breaking Bad (16.41M).
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot](images/dashboard-screenshot.png)
+**Titles released per year**
+![Titles Per Year](images/titles-per-year.png)
 
+**Top 10 titles by rating votes**
+![Top 10 Titles by Votes](images/top10-titles-by-votes.png)
+
+**Average IMDb score by age certification**
+![Average Score by Certification](images/avg-score-by-certification.png)
+
+**Movie vs. TV Show split**
+![Movie vs Show Split](images/movie-vs-show-split.png)
 
 ## 📁 Repository Structure
 
 ```
 ├── README.md
 ├── Netflix_project.pbix   # Power BI report file
-└── images/                # screenshots for this README
+└── images/                # dashboard chart exports for this README
+    ├── titles-per-year.png
+    ├── top10-titles-by-votes.png
+    ├── avg-score-by-certification.png
+    └── movie-vs-show-split.png
 ```
 
 ## ▶️ How to Reproduce
